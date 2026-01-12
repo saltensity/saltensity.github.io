@@ -23,27 +23,41 @@
     The (optional) <header> HTML element represents introductory content that would usually be shown at the top of every page in a group of pages.
     For example, a logo or top banner, with a navigation bar.
     -->
-    <header></header>
+    <div class='sticky'>
+      <header>
+        <nav class='navbar'>
+          <b><div class="medium">Matthew Na</div></b>
+          <a href="/education.html">Education</a>
+          <a href="/projects.html">Projects</a>
+          <a href="/contact.html">Contact Me</a>
+        </nav>
+      </header>
+    </div>
 
     <!--
     The (optional) <section> element is used to encapsulate standalone sections of content.
     It makes sense to use them for a portfolio, but perhaps not for an essay.
     -->
-    <section>
-      <h1>Matthew Na / About Me</h1>
-      <p>I'm a student currently taking PXME, aspiring to possess a career in Computer Science. </p>
-    </section>
-
+    <div class="content">
+    <div class="main-header">
+        <h1>Matthew Na</h1>
+        <div>I'm a student currently taking PXME, aspiring to possess a career in Computer Science. </div>
+    </div>
+    
     <section>
       <h2>Education</h2>
       <table>
         <tr>
-          <th>Year Graduated</th>
+          <th>Year of Graduation</th>
           <th>Education Level</th>
         </tr>
         <tr>
           <td>2024</td>
-          <td>GCE O Levels</td>
+          <td>GCE "O" Levels</td>
+        </tr>
+        <tr>
+          <td>2026</td>
+          <td>GCE "A" Levels</td>
         </tr>
       </table>
       <!-- Your organised portfolio content goes here. -->
@@ -55,19 +69,34 @@
 
     <section>
       <h2>Coursework and Projects</h2>
-      <ul>
-        <li><a href="https://github.com/saltensity/ShortFuse">ShortFuse: A shorts generator</a></li>
-        <li><a href="https://github.com/saltensity/elasticCollisions"></a>ElasticCollisions: A Physics Simulator</li>
+        <li><a target="_blank" href="https://github.com/saltensity/ShortFuse">ShortFuse: A shorts generator</a></li>
+        <li><a target="_blank" href="https://github.com/saltensity/elasticCollisions">ElasticCollisions: A Physics Simulator</a></li>
       </ul>
+      <a target="_blank" href="/projects.html"><button class="btn">All Projects</button></a>
     </section>
     
     <section>
       <h2>Reflections</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut ante interdum, tempor nisi sit amet, maximus turpis. Donec ac ante vel dolor sodales lobortis sit amet sed neque. Phasellus felis libero, rhoncus sit amet pulvinar auctor, viverra a nisi. Nam sed ante urna. Cras vitae venenatis nulla, nec pulvinar nibh. Vivamus sagittis lorem mollis massa tristique, in luctus purus vehicula. Nunc eget ullamcorper tortor, ac vestibulum tellus. Suspendisse at nunc vel urna suscipit egestas. Nullam quam elit, placerat quis vulputate sit amet, eleifend a tellus. Suspendisse auctor pellentesque eleifend. Sed posuere, ligula sit amet egestas porta, magna ipsum bibendum orci, quis sodales turpis nisl sed ligula.</p>
+
+
     </section>
     
     <section>
       <h2>Skills</h2>
+      <p>Experience in Python and C++</p>
     </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>You can contact me via email or my LinkedIn:</p>
+      <ul>
+        <li>Email: matthewna25@gmail.com</li>
+        <li>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/matthew-na-bb8a2a247/">Matthew Na</a></li>
+        
+      </ul>
+    </section>
+  </div>
 
     <footer></footer>
   </body>
